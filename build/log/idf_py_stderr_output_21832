@@ -1,0 +1,10 @@
+Command: ninja all
+CMake Error at D:/App/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/tools/cmake/component.cmake:319 (message):
+  Include directory 'D:/projects/smart_home2/main/include' is not a
+  directory.
+Call Stack (most recent call first):
+  D:/App/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/tools/cmake/component.cmake:494 (__component_add_include_dirs)
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

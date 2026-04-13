@@ -1,0 +1,21 @@
+Command: ninja all
+CMake Error at D:/App/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/tools/cmake/component.cmake:492 (add_library):
+  Cannot find source file:
+
+    D:/projects/smart_home2/components/dht11/dht11.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  components/dht11/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at D:/App/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/tools/cmake/component.cmake:492 (add_library):
+  No SOURCES given to target: __idf_dht11
+Call Stack (most recent call first):
+  components/dht11/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+ninja: error: rebuilding 'build.ninja': subcommand failed
